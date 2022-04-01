@@ -1,2 +1,2 @@
-# Online-Store-Project-Frontend
-This is the frontend part of the online store project
+# Frontend part of the online store project
+### This part of the project is built with HTML and CSS
