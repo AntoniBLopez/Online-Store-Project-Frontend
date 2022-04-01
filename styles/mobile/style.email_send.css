@@ -6,6 +6,7 @@
     --very-light-color: rgb(238, 238, 238);
     --hospital-green: #ACD9B2;
     --text-input-field: #F7F7F7;
+    --text-span-email: rgb(170, 170, 170);
 
     --small: 1.4rem;
     --medium: 1.6rem;
@@ -34,13 +35,13 @@ body {
 }
 .form-container {
     display: grid;
+    justify-items: center;
     grid-template-rows: auto 1fr auto;
 
     width: 300px;
 }
 .logo-container {
     justify-self: center;
-    display: none;
 }
 .logo {
     margin-bottom: 4.8rem;
@@ -64,27 +65,31 @@ body {
 
     color: var(--black);
 }
-.form {
+.email-image {
     display: flex;
-    flex-direction: column;
-}
-.label {
-    margin-bottom: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.4rem;
 
-    font-weight: bold;
+    width: 13.2rem;
+    height: 13.2rem;
+    border-radius: 50%;
+
+    background-color: var(--very-light-color);
+}
+.email-image img {
+    width: 8rem;
+}
+.resend {
     font-size: var(--small);
 }
-.input {
-    height: 3rem;
-    padding: 0.6rem;
-    margin-bottom: 1.2rem;
+.resend span{
+    color: var(--text-span-email);
+}
+.resend a{
+    text-decoration: none;
 
-    font-size: var(--medium);
-
-    background-color: var(--text-input-color);
-
-    border: none;
-    border-radius: 8px;
+    color: var(--hospital-green);
 }
 .primary-button {
     width: 100%;

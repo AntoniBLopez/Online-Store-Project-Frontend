@@ -1,0 +1,4 @@
+
+.logo-container {
+    display: none; /* la única diferencia con el archivo mobile es esta línea */
+}
