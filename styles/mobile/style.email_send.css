@@ -36,9 +36,9 @@ body {
 .form-container {
     display: grid;
     justify-items: center;
-    grid-template-rows: auto 1fr auto;
 
-    width: 300px;
+    max-width: 300px;
+    width: 90%;
 }
 .logo-container {
     justify-self: center;
