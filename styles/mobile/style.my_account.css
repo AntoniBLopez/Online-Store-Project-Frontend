@@ -6,6 +6,7 @@
     --very-light-color: rgb(238, 238, 238);
     --hospital-green: #ACD9B2;
     --text-input-field: #F7F7F7;
+    --color-text-paragraph: rgb(170, 170, 170);
 
     --small: 1.4rem;
     --medium: 1.6rem;
@@ -81,41 +82,29 @@ body {
     font-weight: bold;
     font-size: var(--small);
 }
-.input {
-    height: 3rem;
-    padding: 0.6rem;
-    margin-bottom: 1.2rem;
+.value {
+    margin: 8px 0 32px 0;
 
     font-size: var(--medium);
 
-    background-color: var(--very-light-color);
-
-    border: none;
-    border-radius: 8px;
-}
-.input-name,
-.input-email {
-    margin-bottom: 2.2rem;
-}
-.input-password {
-    margin-bottom: 3.6rem;
+    color: var(--color-text-paragraph);
 }
 
-.primary-button {
+.secondary-button {
     width: 100%;
     height: 5rem;
 
     border-radius: 8px;
-    border: none;
+    border: 1px solid var(--hospital-green);
 
     font-size: var(--medium);
     font-weight: bold;
 
-    color: var(--white);
-    background-color: var(--hospital-green);
+    color: var(--hospital-green);
+    background-color: var(--white);
 
     cursor: pointer;
 }
-.login-button {
+.edit-button {
     margin-bottom: 2.2rem;
 }
