@@ -1,0 +1,12 @@
+.title-order {
+    display: block;
+
+    margin-top: 14.1rem;
+    margin-bottom: 4.7rem;
+
+    font-size: var(--large);
+}
+.my-order-container {
+    max-width: 40rem;
+    padding-top: 0;
+}
