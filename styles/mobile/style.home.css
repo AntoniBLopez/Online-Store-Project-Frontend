@@ -1,9 +1,8 @@
-@import "../../standard.css";
+@import "../standard.css";
 
 :root {
     --card-size: 14rem;
 }
-
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 14rem);
