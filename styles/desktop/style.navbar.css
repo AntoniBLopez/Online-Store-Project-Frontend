@@ -1,0 +1,18 @@
+nav {
+    padding: 10px 30px;
+}
+.menu {
+    display: none;
+}
+.logo {
+    width: 15rem;
+}
+.navbar-left {
+    display: flex;
+}
+.navbar-email {
+    display: flex;
+}
+.navbar-right ul picture img {
+    display: flex;
+}
