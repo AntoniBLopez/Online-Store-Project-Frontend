@@ -10,3 +10,5 @@
 5. Others
 
 - **And each category separated with a space, to make it more readable and maintainable**
+
+### Thanks for watching :blush:
