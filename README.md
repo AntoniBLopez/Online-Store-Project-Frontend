@@ -1,4 +1,4 @@
-# Layout of the online store project
+# Layout of the online store project 🏪
 - This part of the project is built with HTML and CSS
 
 ### The code in the CSS files is ordered according to its purpose as follows:
